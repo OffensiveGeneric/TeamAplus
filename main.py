@@ -1,6 +1,13 @@
 import streamlit as st
 import google.generativeai as genai
 
+'''
+
+A basic template for an AI-based text editor.
+
+
+'''
+
 genai.configure(api_key="YOUR_GOOGLE_GEMINI_API_KEY")
 
 
@@ -44,4 +51,3 @@ if st.button("Generate"):
 
 
 st.markdown("---")
-st.caption("Built with ❤️ using Google Gemini and Streamlit.")
