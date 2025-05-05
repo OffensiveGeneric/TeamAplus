@@ -5,6 +5,8 @@ import google.generativeai as genai
 
 A basic template for an AI-based text editor.
 
+TODO: see requirments from phase 1 and phase 2 reports
+
 
 '''
 
